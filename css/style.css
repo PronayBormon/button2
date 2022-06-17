@@ -1,0 +1,32 @@
+.nav-bar{
+    background: #f0f0f0;
+    height: 48px;
+    clip-path: polygon(2% 0%, 56% 0%, 56% 100%, 2% 100%);
+    display: flex;
+    padding-left: 6px;
+}
+.nav-bar button{
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    transform: skewX(30deg);
+    padding: 0px 21px;
+    border-left: 1px solid #000;
+    transition: .4s all ease-in-out;
+}
+.nav-bar button:hover{
+    background-color: red;
+    color: #f0f0f0;
+    border-color: red;
+}
+.nav-bar button h1{
+    font-size: 18px;
+    padding: 0px 10px;
+    margin: 0px;
+    transform: skewX(-30deg);
+}
+.nav-bar button i{
+    transform: skewX(-30deg);
+}
